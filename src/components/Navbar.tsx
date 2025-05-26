@@ -7,9 +7,9 @@ import CustomRightDirectionIcon from './svg/rightDirectionIcon';
 export default function Navbar() {
   return (
     <nav className="bg-[#FBFFFB] shadow-sm w-full">
-      <div className="container mx-auto px-6 py-2.5 flex items-center justify-between border-b-1 border-[#E1EBE1">
+      <div className="container mx-auto px-6 py-2.5 flex items-center justify-between border-b-1 border-b-[#E1EBE1]">
         
-       {/* Left part */}
+       {/* Left part */}   
         <div>
           <h1 className="text-lg font-semibold text-[#282E29]">Dua <span className='text-[#417360] font-normal'>& </span> Ruqyah</h1>
           <p className="text-xs text-[#282E29] font-medium">Hisnul Muslim</p>
