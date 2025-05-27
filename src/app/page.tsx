@@ -33,7 +33,7 @@ export default function Home() {
         </div>
 
         {/* Main Content */}
-        <div className="p-6 h-screen hidden lg:block">
+        <div className="h-screen hidden lg:block">
           {selectedSubcategoryId ? (
             <DuaList
               subcategoryId={selectedSubcategoryId}

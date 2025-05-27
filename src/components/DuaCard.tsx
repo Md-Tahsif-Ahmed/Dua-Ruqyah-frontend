@@ -37,7 +37,7 @@ export default function DuaList({
   return (
     <div className=" min-h-screen">
           {/* Dynamic Breadcrumb Navigation */}
-      <div className="bg-[#E1EBE1] px-16 py-3.5 gap-2.5">
+      <div className="bg-[#E1EBE1] px-16 py-3.5">
         <nav className="flex items-center space-x-1 text-xs text-[#7C827D]">
           <HomeIcon className="w-4 h-4" />
           <ArrowRightIcon className="w-3 h-3" />
