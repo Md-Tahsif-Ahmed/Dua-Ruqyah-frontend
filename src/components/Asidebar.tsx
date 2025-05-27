@@ -108,8 +108,8 @@ export default function ASidebar({
             >
               <Image src="/images/icon.png" alt={cat.cat_name_en} width={24} height={24} className="inline-block mr-2" />
               {cat.cat_name_en}
-              <p className="text-xs text-[#709484] ml-5">
-                {subcatCount} subcategories, {duaCount} duas
+              <p className="text-xs text-[#709484] ml-10">
+                {subcatCount} subcat, {duaCount} duas
               </p>
             </button>
 

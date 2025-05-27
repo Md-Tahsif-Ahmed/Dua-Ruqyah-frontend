@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api', // Change this to your API
+  baseURL: 'https://n-lyart-eight.vercel.app/api',
 });
 
 export const getCategories = () => API.get('/categories');
