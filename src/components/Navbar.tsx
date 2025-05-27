@@ -7,7 +7,7 @@ import CustomRightDirectionIcon from './svg/rightDirectionIcon';
 export default function Navbar() {
   return (
     <nav className="bg-[#FBFFFB] shadow-sm w-full">
-      <div className="container mx-auto px-6 py-2.5 flex items-center justify-between border-b-1 border-b-[#E1EBE1]">
+      <div className="container mx-auto px-6 py-2 lg:py-2.5 flex items-center justify-between border-b-1 border-b-[#E1EBE1]">
         
        {/* Left part */}   
         <div>
@@ -16,7 +16,7 @@ export default function Navbar() {
         </div>
 
         {/* Right: Icons + Button */}
-        <div className="flex items-center space-x-4">
+        <div className="lg:flex items-center space-x-4 hidden">
           <button className="p-2.5 rounded-full bg-[#E1EBE199]">
             <CustomSearchIcon/>
           </button>
